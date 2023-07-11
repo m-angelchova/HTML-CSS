@@ -1,0 +1,224 @@
+.section-introduction{
+    background-color: rgba(173,226,223,255);
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em 0;
+}
+
+.main-title{
+    font-size: 4.5em;
+}
+
+.sub-title{
+    font-size: 1.3em;
+}
+
+.buttons{
+    margin-top: 1em;
+    display: flex;
+    gap: 1.5em;
+}
+
+.buttons a{
+    text-decoration: none;
+    color: white;
+    padding: 1.5em 2em;
+    background-color: black;
+    border-radius: 0.5em;
+}
+
+.buttons .icon svg{
+    fill: white;
+    margin-right: 0.2em;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.section-stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 6em 10em;
+}
+
+.stat-card{
+    border-left: 2px solid lightgray;
+    padding-left: 2em;
+    min-height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 2em;
+}
+
+.stat-card:nth-child(3){
+    border-right: 2px solid lightgray;
+    
+}
+
+.stat-desc{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.section-features{
+    display: flex;
+    background-color: rgba(173,226,223,255);
+    align-items: center;
+    justify-content: center;
+    padding: 0 15em;
+}
+
+.phone-img {
+    border: 2px dashed gray;
+}
+
+.phone-img img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.features-info{
+    margin-left: 5em;
+}
+
+.features-info h1{
+    font-size: 3em;
+    padding-bottom: 0.5em;
+}
+
+.features-info h3{
+    font-size: 1.3em;
+}
+
+.pricing{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+}
+
+.icon svg{
+    fill: black;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.section-pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding: 3em 0 ;
+}
+
+.pricing-plans{
+    background-color: rgba(173,226,223,255);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.pricing-p-descr{
+    margin-bottom: 2em;
+}
+
+.pricing-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    border: 1px solid gray;
+    border-radius: 2em;
+    background-color: white;
+}
+
+.pricing-card{
+    margin: 1.5em;
+    
+    border-right: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3em;
+
+}
+
+.pricing-title{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.pric{
+    font-size: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid lightgray;
+}
+
+.price-month{
+    font-size: 0.5em;
+    padding-left: 0.5em;
+    font-weight: normal;
+}
+
+.pricing-features{
+    padding-top: 1em;
+    
+}
+.p-feature{
+    font-size: 0.9em;
+    padding-bottom: 0.2em;
+}
+.p-feature:nth-child(5){
+    padding-bottom: 4em;
+}
+
+
+.pricing-button{
+    justify-self: flex-end;
+    text-decoration: none;
+    background-color: rgba(173,226,223,255);
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    color: black;
+    text-align: center;
+}
+
+.expand-card{
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(173,226,223,255);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+
+.expand-title{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.expand-button{
+    justify-self: flex-end;
+    text-decoration: none;
+    background-color: rgba(173,226,223,255);
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    color: black;
+    text-align: center;
+}
+/* ----------------------------------------------------------------------- */
+
+.section-get-started{
+    background-color: rgba(173,226,223,255);
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em 0;
+}

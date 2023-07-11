@@ -1,0 +1,11 @@
+.site-footer{
+    background-color: rgba(212, 0, 0, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5em 1em;
+    margin-top: auto;
+}
+.site-footer p{
+    padding: 0;
+}

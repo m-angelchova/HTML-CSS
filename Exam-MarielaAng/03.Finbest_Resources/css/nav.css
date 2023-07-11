@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em 13em;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu li{
+    padding: 0 2em;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign-up{
+    background-color: rgba(173,226,223,255);
+    padding: 1em 1.5em;
+    margin-left: 2em;
+    border-radius: 0.5em;
+}
+

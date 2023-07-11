@@ -1,0 +1,109 @@
+.section-banner{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10em;
+}
+
+.section-banner a{
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: rgba(212, 0, 0, 1);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3em;
+    line-height: 1;
+}
+
+.section-banner p{
+    max-width: 28em;
+    line-height: 1.2;
+}
+
+.section-banner h2{
+    font-size: 2.8em;
+    letter-spacing: 0.3em;
+}
+
+[class*="section-"] header h2{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+[class*="section-"] header h2::after{
+    display: block;
+    content: '';
+    width: 3em;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(212, 0, 0, 1);
+    align-self: center;
+    margin: 1em auto;
+}
+
+.section-welcome{
+    background-color: white;
+    padding: 3em 8em;
+}
+.section-welcome .colums .media img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.section-coaches{
+    background-color: lightgray;
+    padding: 3em 8em;
+}
+
+.section-coaches img{
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.colums{
+    display: flex;
+    gap: 13em;
+}
+
+.colums li,
+.colums li span {
+    display: block;
+}
+
+.colums img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.colums li{
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.colums .title{
+    color: rgba(212, 0, 0, 1);
+    font-weight: bold;
+    padding: 0.5em 0;
+}
+
+.colums .sub-title{
+    color: rgba(212, 0, 0, 1);
+    font-weight: bold;
+    padding-bottom: 0.8em;
+}
+.colums .name{
+    font-weight: bold;
+    padding: 0.5em 0;
+}
+
+.colums .description{
+    line-height: 1.2;
+}
+
+.section-coaches .colums .description{
+    color: gray;
+}

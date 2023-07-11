@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font: 12px/1.5 'Inter', sans-serif;
+    color: gray;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.site{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 3em 10em;
+}
+
+.card{
+    flex: 1 0 30%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.text{
+    padding: 2em 2em 1em 2em;
+}
+
+.text::after{
+    display: block;
+    content: '';
+    width: 28em;
+    height: 1px;
+    background: black;
+    margin: 0 auto;
+    margin-top: 2em
+}
+
+.mini-title{
+    font-weight: bold;
+    padding-bottom: 0.4em;
+    color: rgb(76, 75, 75);
+    font-size: 1.3em;
+}
+
+h3{
+    font-weight: normal;
+    padding-bottom: 1em;
+    color: black;
+    font-size: 1.8em;
+}
+
+.descr{
+    font-size: 1.2em;
+}
+
+.author-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 3em 2em 2em;
+}
+
+.author-and-image{
+    display: flex;
+    align-items: center;
+}
+
+.author{
+    display: inline;
+    align-self: center;
+    font-size: 1.2em;
+    color: black;
+    padding-left: 0.5em;
+}
+
+.time{
+    display: inline;
+    font-size: 1.2em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+}
+
+.author-img{
+    display: inline-block;
+    clip-path: circle();
+    width: 20%;
+}

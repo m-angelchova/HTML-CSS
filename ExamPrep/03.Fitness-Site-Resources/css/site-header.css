@@ -1,0 +1,28 @@
+.top-bar{
+    background-color: rgba(212, 0, 0, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    padding: 0.5em 1em;
+}
+.top-bar p, .top-bar ul{
+    padding: 0;
+}
+
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+.socials li{
+    display: block;
+}
+.socials li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding:  0 0.5em;
+}
+

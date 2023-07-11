@@ -1,0 +1,22 @@
+.main-nav{
+    display: flex;
+    justify-content: end;
+}
+.main-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 2em 1em;
+}
+
+.main-nav li{
+    display: block;
+    padding: 0 2em;
+}
+
+.main-nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding:  0 0.5em;
+}

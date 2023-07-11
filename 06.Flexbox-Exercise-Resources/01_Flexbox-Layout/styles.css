@@ -1,0 +1,35 @@
+body{
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-family: sans-serif;
+}
+header, main, aside, footer {
+    padding: 2 rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+    text-transform: uppercase;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+header, footer{
+    flex-basis: 100%;
+}
+main{
+    flex: 8 1 40rem;
+    height: 200px;
+}
+aside{
+    flex: 2 1 20rem;
+    height: 200px;
+}
+header{
+    height: 100px;
+}
+footer{
+    height: 70px;
+}
